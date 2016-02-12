@@ -1,15 +1,13 @@
-<Page class="coverImage" xmlns="http://schemas.nativescript.org/tns.xsd"
-      xmlns:PeriscopeHearts="nativescript-periscopehearts" loaded="pageLoaded">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
     <Page.actionBar>
-    <ActionBar title="NativeScript-PeriscopeHearts" color="#fff" backgroundColor="#03A9F4" />
+    <ActionBar title="NativeScript-AnimateCss" color="#fff" backgroundColor="#03A9F4" />
   </Page.actionBar>
     <ScrollView>
         <StackLayout>
-            <button text="Add Heart" tap="newHeart" />
-
-            <!-- This is our Heart "container" -->
-            <PeriscopeHearts:PeriscopeHearts class="heartLayout" id="heartLayout" height="400" />     
-            
-        </StackLayout>
+            <button text="Animate Css FTW!" tap="animateIt" />
+            <image src="~/images/yoda.jpg" stretch="aspectFit" height="200" tap="flashIt" />
+            <image src="~/images/batman.jpg" stretch="aspectFit" height="200" tap="rotateIn" />
+            <image src="~/images/excellent.jpg" stretch="aspectFit" height="200" tap="rubberBand" />
+        </StackLayout> 
     </ScrollView>
 </Page>
