@@ -1,0 +1,15 @@
+<Page class="coverImage" xmlns="http://schemas.nativescript.org/tns.xsd"
+      xmlns:PeriscopeHearts="nativescript-periscopehearts" loaded="pageLoaded">
+    <Page.actionBar>
+    <ActionBar title="NativeScript-PeriscopeHearts" color="#fff" backgroundColor="#03A9F4" />
+  </Page.actionBar>
+    <ScrollView>
+        <StackLayout>
+            <button text="Add Heart" tap="newHeart" />
+
+            <!-- This is our Heart "container" -->
+            <PeriscopeHearts:PeriscopeHearts class="heartLayout" id="heartLayout" height="400" />     
+            
+        </StackLayout>
+    </ScrollView>
+</Page>

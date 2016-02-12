@@ -1,0 +1,12 @@
+{
+	"nativescript": {
+		"id": "org.nativescript.animatecss",
+		"tns-android": {
+			"version": "1.5.1"
+		}
+	},
+	"dependencies": {
+		"nativescript-animatecss": "file:..",
+		"tns-core-modules": "latest"
+	}
+}

@@ -1,0 +1,24 @@
+﻿.title {
+    font-size: 26;
+    horizontal-align: center;
+    margin: 20;
+}
+
+button {
+    font-size: 22;
+    horizontal-align: center;
+}
+
+.message {
+    font-size: 20;
+    color: #284848;
+    horizontal-align: center;
+}
+
+
+.coverImage {
+    background-image: ~/images/kiss.jpg;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

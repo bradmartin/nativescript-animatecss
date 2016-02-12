@@ -1,0 +1,34 @@
+{
+  "name": "nativescript-animatecss",
+  "version": "1.0.0",
+  "main": "animatecss.js",
+  "description": "NativeScript plugin for Android to mimic Animate.CSS animations on Android views.",
+  "nativescript": {
+    "platforms": {
+      "android": "1.5.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradmartin/nativescript-animatecss.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "native",
+    "script",
+    "animate css",
+    "animation",
+    "bradmartin",
+    "Thorum"
+  ],
+  "author": {
+    "name": "Brad Martin",
+    "email": "bradmartinwaynemartin@gmail.com",
+    "url": "https://github.com/bradmartin"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bradmartin/nativescript-animatecss/issues"
+  },
+  "homepage": "https://github.com/bradmartin/nativescript-animatecss"
+}

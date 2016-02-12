@@ -1,0 +1,8 @@
+﻿# generated files
+.vs
+.vs/
+nativescript-animatecss.sln
+.sln
+*.sln
+demo/
+screens/
