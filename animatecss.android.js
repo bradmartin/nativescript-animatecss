@@ -12,7 +12,7 @@ var library = com.daimajia.androidanimations.library;
 var Techniques = com.daimajia.androidanimations.library.Techniques;
 
 // Animate
-// @params  { VIEW, CLASS, DURATION }
+// @params  { view, cssClass, duration }
 AnimateCss.animate = function(options) {
     if (!options) {
         return;
@@ -20,13 +20,13 @@ AnimateCss.animate = function(options) {
 
     return new Promise(function (resolve, reject) {
         try {
-            // get the Technique (class) passed in
             var animateTechnique = getClassTechnique(options.cssClass);
-
-            library.YoYo.with(animateTechnique).duration(options.duration).playOn(options.view);
-
-            resolve("animation done");
-
+            if (animateTechnique) {
+                library.YoYo.with(animateTechnique).duration(options.duration).playOn(options.view);
+                resolve();
+            } else {
+                reject("Error in AnimateCss.animate(): Check the cssClass property passed in the options. ");
+            }
         } catch (ex) {
             reject("Error in AnimateCss.animate(): " + ex);
         }

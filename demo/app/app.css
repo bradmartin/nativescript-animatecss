@@ -15,11 +15,3 @@ button {
     color: #284848;
     horizontal-align: center;
 }
-
-
-.coverImage {
-    background-image: ~/images/kiss.jpg;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}

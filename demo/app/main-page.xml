@@ -1,6 +1,6 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
     <Page.actionBar>
-    <ActionBar title="NativeScript-AnimateCss" color="#fff" backgroundColor="#03A9F4" />
+    <ActionBar title="NativeScript-AnimateCSS" color="#fff" backgroundColor="#03A9F4" />
   </Page.actionBar>
     <ScrollView>
         <StackLayout>
