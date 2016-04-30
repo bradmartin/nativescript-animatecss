@@ -1,3 +1,6 @@
+[![npm](https://img.shields.io/npm/v/nativescript-animatecss.svg)](https://www.npmjs.com/package/nativescript-animatecss)
+[![npm](https://img.shields.io/npm/dt/nativescript-animatecss.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-animatecss)
+
 # NativeScript-AnimateCSS 
 NativeScript plugin for Android to mimic Animate.CSS animations on Android views.
 
